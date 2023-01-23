@@ -13,14 +13,23 @@ public class Aluguel {
         this.veiculo = veiculo;
         this.cliente=cliente;
         this.dias=dias;
-
     }
     public double ValorFinalAluguel(){
         double valorFinal = (veiculo.getValor()*dias);
-        if(dias>=cliente.getDiasParaDesconto()){
+        if(dias>cliente.getDiasParaDesconto()){
             valorFinal=valorFinal*cliente.getDesconto();
         }
         return valorFinal;
+    }
+
+    public Cliente getCliente(){
+        return cliente;
+    }
+    public Veiculo getVeiculo(){
+        return veiculo;
+    }
+    public int getDias(){
+        return dias;
     }
 
 }

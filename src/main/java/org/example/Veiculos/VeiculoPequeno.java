@@ -10,7 +10,7 @@ public class VeiculoPequeno implements Veiculo {
 
 
     public VeiculoPequeno(){
-        System.out.println("Veiculo pequeno cadastrado");
+        System.out.println("Veiculo Pequeno cadastrado");
     }
 
     public double getValor(){
