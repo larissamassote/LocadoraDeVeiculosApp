@@ -8,7 +8,7 @@ public class VeiculoMedio implements Veiculo {
 
     private final String tipo = "Médio";
     private final double valor = 150;
-    private final LocalDateTime data = LocalDateTime.now();
+
 
     public VeiculoMedio() {
 
