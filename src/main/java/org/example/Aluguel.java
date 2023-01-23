@@ -13,6 +13,7 @@ public class Aluguel {
         this.veiculo = veiculo;
         this.cliente=cliente;
         this.dias=dias;
+
     }
     public double ValorFinalAluguel(){
         double valorFinal = (veiculo.getValor()*dias);

@@ -13,7 +13,6 @@ public class ClienteJuridico implements Cliente {
         this.nome = nome;
         this.descontoTaxa = 1-0.10;
         this.diasParaDesconto = 3;
-
     }
 
     @Override
